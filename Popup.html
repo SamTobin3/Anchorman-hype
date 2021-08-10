@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<h1 id="h1">The content</h1> <h1>of the body</h1> element is displayed in your browser.
+</br></br></br>
+<div onclick="checkAll()"> Click me To See Change</div>
+</body>
+<script>
+function checkAll() {
+var divs = document.getElementsByTagName("h1");  // Access all <H1> present in your body.
+
+for(var i = 0; i < divs.length; i++) {   //divs.length contain number of <h1> elements
+  var div = divs[i];                     // Now access Each <H1> one-by-one
+  div.style.color = 'blue';             // Set Color Style of each <h1>
+}
+}
+</script>
+</html>

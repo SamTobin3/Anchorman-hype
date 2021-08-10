@@ -1,0 +1,1 @@
+-m pip install pip==20.2.4
